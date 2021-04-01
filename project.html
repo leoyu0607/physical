@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Group6_Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+p.formula {
+  font-style: normal;
+  font-size: x-large;
+}
+
+.bgimg-1{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url('images/projectbg1.jpg');
+  min-height: 100%;
+}
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+@media only screen and (max-device-width: 800px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+      
+.collapsible {
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+</style> </head>
+  <body>
+    <div class="w3-top">
+      <div class="w3-bar" id="myNavbar"> <a href="https://iot.ntue.edu.tw/stProject/physics/109/1/GP6/index.html"
+
+          class="w3-bar-item w3-button"> HOME </a> </div>
+    </div>
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="project">
+      <div class="w3-display-middle" style="white-space: nowrap;"> <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">
+          <b><span class="w3-hide-small">GROUP-6</span> PLANETARY MOTION</b> </span>
+      </div>
+    </div>
+    <button class="collapsible" ;="" style="background-color: #777"> <b class="fa-2x">Week1</b>
+    </button>
+    <div class="content">
+      <h3>計畫擬定</h3>
+      <p> 試作軌道運動(太陽&amp;地球)<br>
+        <img src="images/PHY-project/1.png" alt="" style="width: 600px;"><br>
+        <a href="ejss_model_siderealSolarJS/siderealSolarJS.xhtml">simulation</a><br>
+        <br>
+        初步雙星運動<br>
+        <img src="images/PHY-project/3.png" alt="" style="width: 600px;"><br>
+        <a href="BinaryStarSystem2/BinaryStarSystem.xhtml">simulation</a> </p>
+    </div>
+    <button class="collapsible" ;="" style="background-color: gray"> <b class="fa-2x">Week2</b>
+    </button>
+    <div class="content">
+      <h3>雙星模組-1</h3>
+      <p>理解行星運動之法則(克普勒行星三大運動定律)<br>
+        試作雙星運動2 (尚未加入加速度)<br>
+        <img src="images/PHY-project/4.png" alt="" style="width: 600px;"><br>
+        <a href="BinaryStarSystem2/BinaryStarSystem.xhtml">simulation</a> </p>
+    </div>
+    <button class="collapsible" ;="" style="background-color: #777"> <b class="fa-2x">Week3</b>
+    </button>
+    <div class="content">
+      <h3>雙星模組-2</h3>
+      <p>雙星運動2 (加入速度)<br>
+        <img src="images/PHY-project/5.png" alt="" style="width: 600px;"><br>
+        <a href="ejss_model_TwoBodyOrbits/TwoBodyOrbits.xhtml">simulation</a> </p>
+    </div>
+    <button class="collapsible" ;="" style="background-color: gray"> <b class="fa-2x">Week4</b>
+    </button>
+    <div class="content">
+      <h3>重力彈弓效應 Gravitational Slingshot</h3>
+      <p>重力助推<br>
+        <img src="images/PHY-project/6.png" alt="" style="width: 1000px;"><br>
+        <a href="ejss_model_gravity_assist/gravity_assist_Simulation.xhtml">simulation</a>
+      </p>
+    </div>
+    <button class="collapsible" ;="" style="background-color:#777"> <b class="fa-2x">Week5</b>
+    </button>
+    <div class="content">
+      <h3>公式</h3>
+      <p class="formula">
+        <strong>克普勒定律</strong><br>
+        <b>克普勒第二定律推導</b><br>
+        <img src="images/PHY-project/7.svg" alt="" style="width: 200px;">--(1)<br>
+        <img src="images/PHY-project/8.svg" alt="" style="width: 100px;">--------------(2)<br>
+        1跟2聯立<br>
+        <img src="images/PHY-project/16..svg" alt="" style="width: 150px;">--------(3)<br>
+        <img src="images/PHY-project/10.svg" alt="" style="width: 150px;"><br>
+        利用單位向量微分方程<br>
+        <img src="images/PHY-project/12.svg" alt="" style="width: 100px;"><br>
+        <img src="images/PHY-project/13.svg" alt="" style="width: 125px;"><br>
+        <img src="images/PHY-project/11.svg" alt="" style="width: 850px;">--(4)<br>
+        合併3,4得<br>
+        <img src="images/PHY-project/14.svg" alt="" style="width: 450px;"><br>
+        取各個分量，得兩個常微分方程式(法向加速度&amp;切向加速度)<br>
+        <img src="images/PHY-project/9.svg" alt="" style="width: 150px;"><br>
+        <img src="images/PHY-project/15.svg" alt="" style="width: 150px;"><br>
+        而克普勒第二定律只需要切向量加速度<br>
+        取行星角動量 <img src="images/PHY-project/17.svg" alt="" style="width: 125px;">
+        進行微分<br>
+        <img src="images/PHY-project/18.svg" alt="" style="width: 300px;"><br>
+        角動量<img src="images/PHY-project/21.svg" alt="" style="width: 15px;">在這是一
+        個運動常數，即距離&amp;角速度都會隨時間變化<br>
+        <img src="images/PHY-project/19.svg" alt="" style="width: 500px;"><br>
+        行星連線掃過的面積相依於時間<img src="images/PHY-project/20.svg" alt="" style="width: 75px;"><br>
+        Q.E.D.克普勒第二等面積定律得證<br>
+        ∴加速度會隨著行星距離改變<br>
+        <b>克普勒第一定律推導</b><br>
+        設定<img src="images/PHY-project/22.svg" alt="" style="width: 75px;">。這樣，角速度是<br>
+        <img src="images/PHY-project/23.svg" alt="" style="width: 225px;"><br>
+        對時間微分和對角度微分有如下關係：<br>
+        <img src="images/PHY-project/24.svg" alt="" style="width: 300px;"><br>
+        根據上述關係，徑向距離<img src="images/PHY-project/25.svg" alt="" style="width: 75px;">對時間的導數為：<br>
+        <img src="images/PHY-project/26.svg" alt="" style="width: 500px;"><br>
+        在求一次導數：<br>
+        <img src="images/PHY-project/27.svg" alt="" style="width: 550px;"><br>
+        代入徑向運動方程式(3)，<img src="images/PHY-project/28.svg" alt="" style="width: 200px;"><br>
+        <img src="images/PHY-project/29.svg" alt="" style="width: 450px;"><br>
+        將此方程式除以<img src="images/PHY-project/30.svg" alt="" style="width: 100px;">，
+        則可得到一個簡單的常係數非齊次線性全微分方程式來描述行星軌道：<br>
+        <img src="images/PHY-project/31.svg" alt="" style="width: 300px;"><br>
+        為了解這個微分方程式，先列出一個特解<br>
+        <img src="images/PHY-project/32.svg" alt="" style="width: 200px;"><br>
+        再求解剩餘的常係數齊次線性全微分方程式，<br>
+        <img src="images/PHY-project/33.svg" alt="" style="width: 225px;"><br>
+        它的解為<br>
+        <img src="images/PHY-project/34.svg" alt="" style="width: 300px;"><br>
+        這裡，<img src="images/PHY-project/35.svg" alt="" style="width: 25px;">與
+        <img src="images/PHY-project/36.svg" alt="" style="width: 35px;">
+        是常數。合併特解和齊次方程式解，可以得到通解<br>
+        <img src="images/PHY-project/37.svg" alt="" style="width: 500px;"><br>
+        選擇坐標軸，讓<img src="images/PHY-project/38.svg" alt="" style="width: 100px;">。
+        代回<img src="images/PHY-project/22.svg" alt="" style="width: 75px;"><br>
+        <img src="images/PHY-project/39.svg" alt="" style="width: 400px;"><br>
+        其中，<img src="images/PHY-project/40.svg" alt="" style="width: 200px;">是離心率。<br>
+        這是圓錐曲線的極座標方程式，坐標系的原點是圓錐曲線的焦點之一。假若
+        <img src="images/PHY-project/41.svg" alt="" style="width: 100px;">，則
+        <img src="images/PHY-project/42.svg" alt="" style="width: 15px;">
+        所描述的是橢圓軌道。這證明了克普勒第一橢圓定律。<br>
+        <b>克普勒第三定律推導</b><br>
+        在建立牛頓萬有引力定律的概念與數學架構上，克普勒第三定律是牛頓依據的重要線索之一。假若接受牛頓運動定律。試想一個虛擬行星環繞著太陽公轉，行星的移動軌道恰巧呈圓形，軌道半徑為
+        <img src="images/PHY-project/42.svg" alt="" style="width: 15px;">。
+        那麼，太陽作用於行星的萬有引力為<img src="images/PHY-project/43.svg" alt="" style="width: 100px;">。
+        行星移動速度為<img src="images/PHY-project/44.svg" alt="" style="width: 100px;">。
+        依照克普勒第三定律，這速度
+        <img src="images/PHY-project/45.svg" alt="" style="width: 20px;">與半徑的平方根
+        <img src="images/PHY-project/46.svg" alt="" style="width: 25px;">成反比。
+        所以，萬有引力<img src="images/PHY-project/47.svg" alt="" style="width: 100px;">。
+        猜想這大概是牛頓發現萬有引力定律的思路，但這個猜想無法被證實，因為在他的計算本裡，並沒有找到任何關於這方面的證據。<br>
+        克普勒第一定律闡明，行星環繞太陽的軌道是橢圓形的。橢圓的面積是
+        <img src="images/PHY-project/48.svg" alt="" style="width: 50px;">；這裡，
+        <img src="images/PHY-project/49.svg" alt="" style="width: 15px;">與
+        <img src="images/PHY-project/50.svg" alt="" style="width: 12px;">
+        分別為橢圓的半長軸與半短軸。在克普勒第二定律推導裡，行星-太陽連線掃過區域速度
+        <img src="images/PHY-project/51.svg" alt="" style="width: 50px;">為<br>
+        <img src="images/PHY-project/52.svg" alt="" style="width: 200px;"><br>
+        所以，行星公轉週期<img src="images/PHY-project/53.svg" alt="" style="width: 25px;">為<br>
+        <img src="images/PHY-project/54.svg" alt="" style="width: 200px;"><br>
+        關於此行星環繞太陽，橢圓的半長軸為<img src="images/PHY-project/49.svg" alt="" style="width: 15px;">，
+        半短軸<img src="images/PHY-project/50.svg" alt="" style="width: 12px;">與近拱距
+        <img src="images/PHY-project/55.svg" alt="" style="width: 25px;">
+        (近拱點A與重力中心之間的距離)，遠拱距
+        <img src="images/PHY-project/56.svg" alt="" style="width: 25px;">
+        (遠拱點B與重力中心之間的距離)的關係分別為<br>
+        <img src="images/PHY-project/57.svg" alt="" style="width: 200px;"><br>
+        <img src="images/PHY-project/58.svg" alt="" style="width: 200px;"><br>
+        如果想要知道半長軸與半短軸，必須先求得近拱距和遠拱距。依據能量守恆定律<br>
+        <img src="images/PHY-project/59.svg" alt="" style="width: 400px;"><br>
+        在近拱點A與遠拱點B，徑向速度都等於零：<br>
+        <img src="images/PHY-project/60.svg" alt="" style="width: 100px;"><br>
+        所以<br>
+        <img src="images/PHY-project/61.svg" alt="" style="width: 500px;"><br>
+        稍微加以編排，可以得到<img src="images/PHY-project/42.svg" alt="" style="width: 15px;">的一元二次方程式：<br>
+        <img src="images/PHY-project/62.svg" alt="" style="width: 400px;"><br>
+        其兩個根分別為橢圓軌道的近拱距<img src="images/PHY-project/55.svg" alt="" style="width: 25px;">與
+        遠拱距<img src="images/PHY-project/56.svg" alt="" style="width: 25px;"><br>
+        <img src="images/PHY-project/63.svg" alt="" style="width: 500px;"><br>
+        <img src="images/PHY-project/64.svg" alt="" style="width: 500px;"><br>
+        代入方程式(6)與(7)<br>
+        <img src="images/PHY-project/65.svg" alt="" style="width: 200px;"><br>
+        <img src="images/PHY-project/66.svg" alt="" style="width: 400px;"><br>
+        代入方程式(5)，週期的方程式為<br>
+        <img src="images/PHY-project/67.svg" alt="" style="width: 200px;"><br>
+        <strong>二體問題(雙星系統)</strong><br>
+        <b>約化為兩個獨立的單體問題</b><br>
+        在一個物理系統裡，假設兩個粒子的質量分別為
+        <img src="images/PHY-project/68.svg" alt="" style="width: 50px;">、
+        <img src="images/PHY-project/69.svg" alt="" style="width: 50px;">，在時間
+        <img src="images/PHY-project/70.svg" alt="" style="width: 75px;">的初始位置分別為
+        <img src="images/PHY-project/71.svg" alt="" style="width: 50px;">、
+        <img src="images/PHY-project/72.svg" alt="" style="width: 50px;">，初始速度分別為
+        <img src="images/PHY-project/73.svg" alt="" style="width: 50px;">、
+        <img src="images/PHY-project/74.svg" alt="" style="width: 50px;">，
+        計算這兩個粒子的軌跡函數<img src="images/PHY-project/75.svg" alt="" style="width: 75px;">及
+        <img src="images/PHY-project/76.svg" alt="" style="width: 75px;">的問題，稱為二體問題。<br>
+        根據牛頓第二定律：<br>
+        <img src="images/PHY-project/77.svg" alt="" style="width: 250px;"><br>
+        <img src="images/PHY-project/78.svg" alt="" style="width: 250px;"><br>
+        其中，<img src="images/PHY-project/79.svg" alt="" style="width: 50px;">
+        表示粒子B施加於粒子A的作用力。<br>
+        將方程式(1)與方程式(2)相加，可以得到一個方程式，專門描述兩個粒子的質心運動，將方程式(1)與方程式(2)相減，則可得到描述兩個粒子相對的位移向量<img src="images/PHY-project/80.svg" alt="" style="width: 200px;">
+        與時間之間的關係，將這兩個獨立的單體問題的解答結合起來，就可以求得軌跡函數
+        <img src="images/PHY-project/75.svg" alt="" style="width: 75px;">及
+        <img src="images/PHY-project/76.svg" alt="" style="width: 75px;">。<br>
+        <b>質心運動(第一個單體問題)</b><br>
+        質心的位置由兩個粒子的位置和質量給出：<br>
+        <img src="images/PHY-project/81.svg" alt="" style="width: 300px;"><br>
+        其中，<img src="images/PHY-project/82.svg" alt="" style="width: 200px;">是系統的總質量。<br>
+        質心的加速度為：<br>
+        <img src="images/PHY-project/83.svg" alt="" style="width: 300px;"><br>
+        由於沒有外力作用，將方程式(1)與(2)相加，根據牛頓第三定律，可以得到<br>
+        <img src="images/PHY-project/84.svg" alt="" style="width: 300px;"><br>
+        因此，質心的加速度等於零，質心的速度<img src="images/PHY-project/85.svg" alt="" style="width: 75px;">為常數：<br>
+        <img src="images/PHY-project/86.svg" alt="" style="width: 400px;"><br>
+        這物理系統的動量守恆：<br>
+        <img src="images/PHY-project/87.svg" alt="" style="width: 500px;"><br>
+        從兩個粒子的初始位置和初始速度，就可以決定質心在任意時間的位置：<br>
+        <img src="images/PHY-project/88.svg" alt="" style="width: 500px;"><br>
+        <b>位移向量運動(第二個單體問題)</b><br>
+        將方程式(1)、(2)分別除以<img src="images/PHY-project/68.svg" alt="" style="width: 50px;">、
+        <img src="images/PHY-project/69.svg" alt="" style="width: 50px;">、然後相減，可以得到<br>
+        <img src="images/PHY-project/89.svg" alt="" style="width: 450px;"><br>
+        其中，<img src="images/PHY-project/42.svg" alt="" style="width: 15px;">
+        是個從粒子2指到粒子1位置的位移向量。<br>
+        應用牛頓第三定律，<img src="images/PHY-project/90.svg" alt="" style="width: 150px;">。所以，<br>
+        <img src="images/PHY-project/91.svg" alt="" style="width: 300px;"><br>
+        兩個粒子之間的作用力只是相對位置<img src="images/PHY-project/42.svg" alt="" style="width: 15px;">
+        的函數，而不是絕對位置<img src="images/PHY-project/92.svg" alt="" style="width: 25px;">、
+        <img src="images/PHY-project/93.svg" alt="" style="width: 25px;">
+        的函數；否則，無法滿足物理的平移對稱，物理定律會因地而易，二體之間的物理關係無法普遍地成立於全宇宙。換句話說，在宇宙中，兩個粒子的絕對位置無關緊要，因為它們是宇宙中唯一的兩個粒子，是互相施加於彼此的作用力的源頭。誠然地，這是一個不實際的問題，可以被視為一個思想實驗。為了滿足這問題的要求，兩個粒子之間的作用力必須只是相對位置
+        <img src="images/PHY-project/42.svg" alt="" style="width: 15px;">的函數。
+        這樣，相減得到的方程式寫為<br>
+        <img src="images/PHY-project/94.svg" alt="" style="width: 350px;"><br>
+        其中，<img src="images/PHY-project/95.svg" alt="" style="width: 200px;">是約化質量。<br>
+        一旦求得函數<img src="images/PHY-project/96.svg" alt="" style="width: 100px;">與
+        <img src="images/PHY-project/97.svg" alt="" style="width: 50px;">，
+        就可以計算出兩個粒子的軌跡方程式<img src="images/PHY-project/75.svg" alt="" style="width: 75px;">及
+        <img src="images/PHY-project/76.svg" alt="" style="width: 75px;">：<br>
+        <img src="images/PHY-project/98.svg" alt="" style="width: 400px;"><br>
+        <img src="images/PHY-project/99.svg" alt="" style="width: 400px;"><br>
+        <b>角動量</b><br>
+        兩個粒子的總角動量<img src="images/PHY-project/100.svg" alt="" style="width: 50px;">為<br>
+        <img src="images/PHY-project/101.svg" alt="" style="width: 700px;"><br>其中，
+        <img src="images/PHY-project/102.svg" alt="" style="width: 250px;">
+        是質心對於原點的角動量，
+        <img src="images/PHY-project/103.svg" alt="" style="width: 200px;">
+        是兩個粒子對於質心的角動量。<br>
+        回想前面質心的軌跡方程式<br>
+        <img src="images/PHY-project/104.svg" alt="" style="width: 500px;"><br>
+        為了簡化分析，設定質心的初始位置為0。也就是說，質心的直線運動經過原點。那麼，<br>
+        <img src="images/PHY-project/105.svg" alt="" style="width: 400px;"><br>
+        <img src="images/PHY-project/106.svg" alt="" style="width: 150px;"><br>
+        <b>角動量守恆與連心力</b><br>
+        二體問題的總力矩<img src="images/PHY-project/107.svg" alt="" style="width: 75px;">是<br>
+        <img src="images/PHY-project/108.svg" alt="" style="width: 500px;"><br>
+        在物理學裡，時常會遇到的萬有引力、靜電力等等，都是連心力。假設，作用力
+        <img src="images/PHY-project/109.svg" alt="" style="width: 50px;">是連心力，則
+        <img src="images/PHY-project/109.svg" alt="" style="width: 50px;">與
+        <img src="images/PHY-project/42.svg" alt="" style="width: 15px;">同直線，總力矩
+        <img src="images/PHY-project/107.svg" alt="" style="width: 75px;">等於0。
+        根據角動量守恆定律<br>
+        <img src="images/PHY-project/110.svg" alt="" style="width: 200px;"><br>
+        因此，總角動量<img src="images/PHY-project/100.svg" alt="" style="width: 50px;">
+        是個常數，總角動量守恆。<br>
+        並不是每一種力都是連心力。假設，兩個粒子都是帶電粒子，由必歐-沙伐定律與勞侖茲力定律所算出的作用力和反作用力並不是連心力。總力矩
+        <img src="images/PHY-project/107.svg" alt="" style="width: 75px;">不等於0。總角動量不守恆；這是因為還有角動量並沒有被計算在內。假若，將電磁場的角動量計算在內，則角動量守恆定律仍舊成立。<br>
+        在很多物理系統裏，作用力<img src="images/PHY-project/111.svg" alt="" style="width: 75px;">
+        是一種連心力，以方程式表示為<br>
+        <img src="images/PHY-project/112.svg" alt="" style="width: 200px;"><br>
+        其中，<img src="images/PHY-project/42.svg" alt="" style="width: 15px;">是逕向距離，
+        <img src="images/PHY-project/113.svg" alt="" style="width: 20px;">是逕向單位向量。<br>
+        這物理系統的運動方程式為<br>
+        <img src="images/PHY-project/114.svg" alt="" style="width: 200px;"><br>
+        <b>平面運動與角動量守恆</b><br>
+        總角動量與<img src="images/PHY-project/42.svg" alt="" style="width: 15px;">的點積為<br>
+        <img src="images/PHY-project/115.svg" alt="" style="width: 400px;"><br>
+        這兩個粒子的運動軌道必定包含於垂直於<img src="images/PHY-project/100.svg" alt="" style="width: 50px;">
+        的平面。假設作用力為連心力，則由於角動量守恆，這兩個粒子必定運動於某特定平面，而常數向量
+        <img src="images/PHY-project/100.svg" alt="" style="width: 50px;">垂直於這平面。<br>
+        <img src="images/PHY-project/introduct.PNG" alt="" style="width: 800px;">
+        <img src="images/PHY-project/push.PNG" alt="" style="width: 800px;"> 
+        <img src="images/PHY-project/stop.PNG" alt="" style="width: 800px;"> <br>
+        部分資料來源為：<br>
+        <a href="https://zh.wikipedia.org/wiki/%E5%BC%80%E6%99%AE%E5%8B%92%E5%AE%9A%E5%BE%8B" target="_blank">維基百科(克普勒定律)</a><br>
+        <a href="https://zh.wikipedia.org/wiki/%E4%BA%8C%E9%AB%94%E5%95%8F%E9%A1%8C" target="_blank">維基百科(二體問題)</a><br>
+      </p>
+    </div>
+    <script>    
+  window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+      
+      var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+    
+
+</script> <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+      <a href="#project" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To
+        the top</a> </footer>
+  </body>
+</html>
